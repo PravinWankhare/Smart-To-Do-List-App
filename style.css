@@ -1,0 +1,236 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  position: fixed;       
+  top: 0;
+  left: 0;
+  height: 100vh;          
+  width: 100vw;          
+  object-fit: cover; 
+  border-radius: 0;
+  box-shadow: none;       
+  opacity: 0.6;         
+  z-index: -1;     
+}
+
+.container{
+  text-align: center;
+  position: relative;
+  top: 3vh;
+  left: 10vmin;
+}
+
+h1{
+  font-size: 60px;
+}
+
+h2{
+  font-weight: 550;
+  text-decoration: underline;
+}
+
+input{
+  height: 30px;
+  width: 250px;
+  border: 2px solid black;
+  outline: 2px soli;
+  padding-left: 10px;
+  margin-left: 75px;
+  border-radius: 8px;
+  background-color: transparent;
+  color: black;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+  
+}
+
+input::placeholder{
+  color: black;
+  opacity: 0.9;
+  font-size: 15px;
+}
+
+input:hover{
+  box-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+.add{
+  height: 36px;
+  width: 80px;
+  margin-left: 5px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: rgb(217, 224, 217);
+  font-weight: 550;
+  cursor: pointer;
+  background-color: rgb(44, 214, 35);
+  box-shadow: 0 2px 10px black;
+}
+
+.add:hover{
+  box-shadow: 0 2px 8px rgb(0,0,0,0.8);
+}
+
+.tasks{
+  height: 350px;
+  width: 620px;
+  padding: 25px 0 10px 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 310px;
+  left: 835px;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 12px ;
+  border: 2px solid none;
+  border-radius: 20px;
+  display: none;
+}
+
+.tasks ul {
+  display: flex;
+  flex-direction: column;  
+  flex-wrap: wrap;         
+  height: 100%;         
+  gap: 18.5px 110px;         
+  margin: 0;
+  padding: 0;
+  align-content: flex-start;
+}
+
+.tasks ul li {
+  font-size: 20px;
+}
+
+.delete {
+  margin-left: 15px;
+  margin-top: 5px;
+  height:20px;
+  width: 48px;
+  border-radius:6px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color:gold;
+  padding-right:43px ;
+  line-height: 7px;
+  font-size: 9.5px;
+  font-weight: 200px;
+  cursor: pointer;
+  box-shadow: 0px 1px 5px rgba(255, 255, 255, 0.6);
+}
+
+.delete:hover{
+  box-shadow: 0 1px 5px rgb(0,0,0,0.6);
+  border: 1.5px solid black;
+  transform: scale(1.04);
+}
+
+.clear{
+  height: 36px;
+  width: 80px;
+  margin-left: 5px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: rgb(255, 53, 53);
+  font-weight: 550;
+  cursor: pointer;
+  box-shadow: 1px 1px 8px black;
+}
+
+.clear:hover{
+  box-shadow: 0 2px 8px rgb(0,0,0,0.8);
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 25px;
+  width: 60px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  background-color: white;
+  padding: 0 8px;
+  padding-right: 12px;
+  position: absolute;
+  right: 40px;
+  top: 30px;
+  background-color: black;
+  color: white;
+  box-shadow: 0 1px 10px rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.circle{
+  transition: all 0.8s ease;
+}
+
+p{
+  position: relative;
+  right: 4px;
+}
+
+body.after {
+  background: black;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.change1{
+  outline: 1px solid gold;
+  box-shadow: 0px 0px 10px white;
+  margin-right: 5px;
+  color: white;
+}
+
+.change2{
+  border: 2px solid gold;
+}
+
+.change3{
+  box-shadow: 1px 1px 5px white;
+  font-weight: 700;
+}
+
+.convert{
+  background-color: white;
+  color: black;
+}
+
+.active {
+  transform: translateX(47px);
+  transition: 0.6s ease;
+  border: none;
+  background-image: url('daylight.png');
+  background-size: cover;
+}
+
+.active i {
+  opacity: 0;
+}
+
+.activ{
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+  box-shadow: 0 1px 10px rgb(255, 255, 253);
+}
+
+p{
+   transition: 0.8s ease;
+}
+
+.p{
+  position: relative;
+  right: 20px;
+  font-weight: 600; 
+}
+
+input.place::placeholder{
+  color: white;
+  opacity: 0.6;
+}
