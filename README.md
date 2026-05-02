@@ -6,14 +6,6 @@ It helps users easily **add, remove, and clear tasks**, while offering a **Dark/
 ---
 
 ## 🖥️ Live Project
-🔗 **[View Live Demo](# 📝 Smart To-Do List App
-
-An elegant and interactive To-Do List web application built using **HTML, CSS, and JavaScript**.  
-It helps users easily **add, remove, and clear tasks**, while offering a **Dark/Light mode toggle** for a smooth and modern experience.
-
----
-
-## 🖥️ Live Project
 🔗 **[View Live Demo](https://pravinwankhare.github.io/Smart-To-Do-List-App/)**
 
 ---
